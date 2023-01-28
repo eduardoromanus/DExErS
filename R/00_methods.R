@@ -667,18 +667,20 @@ make_prob_fcasts <- function(dataset_dir, pt_fcasts_dir, method=c("DExErS", "sta
   pt_fcasts_test_file <- paste0("point_forecasts_", test_period, ".csv") %>% 
     paste(pt_fcasts_dir, ., sep="/")
   
-  if(method == "standard"){
-    
-    pt_fcasts_train_file <- paste(pt_fcasts_dir, "point_forecasts_eval_100_most_recent.csv", sep="/")
-    
-  } else if(method == "DExErS"){
-    
-    pt_fcasts_train_file <- case_when(
-      test_period == "evaluation" ~ paste0("point_forecasts_eval_Nmin_", N_min, ".csv"),
-      test_period == "validation" ~ paste0("point_forecasts_valid_Nmin_", N_min, ".csv") ) %>% 
-      paste(pt_fcasts_dir, ., sep="/")
-    
-  }
+  pt_fcasts_train_file <- paste(pt_fcasts_dir, "all_point_forecasts.csv", sep="/")
+  
+  # if(method == "standard"){
+  #   
+  #   pt_fcasts_train_file <- paste(pt_fcasts_dir, "point_forecasts_eval_100_most_recent.csv", sep="/")
+  #   
+  # } else if(method == "DExErS"){
+  #   
+  #   pt_fcasts_train_file <- case_when(
+  #     test_period == "evaluation" ~ paste0("point_forecasts_eval_Nmin_", N_min, ".csv"),
+  #     test_period == "validation" ~ paste0("point_forecasts_valid_Nmin_", N_min, ".csv") ) %>% 
+  #     paste(pt_fcasts_dir, ., sep="/")
+  #   
+  # }
   
   exec_times_file <- "point_forecast_exec_times.csv" %>% 
     paste(pt_fcasts_dir, ., sep="/")
