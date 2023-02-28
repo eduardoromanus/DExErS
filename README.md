@@ -8,7 +8,7 @@ The experiments were executed on a VM with 8 vCPUs (at 2.35 GHz to 2.45 GHz base
 
 ## Base files
 
-It may take considerable time to generate the base point forecasts needed to replicate the probabilistic forecasts by DExErS. With this in mind, we have made the point forecasts used in our experiments (as well as other important data) available in the following public folder: https://onedrive.live.com/?id=8055B445138B3DA7%21179988&cid=8055B445138B3DA7.
+It may take considerable time to generate the base point forecasts needed to replicate the probabilistic forecasts by DExErS. With this in mind, we have made the point forecasts used in our experiments (as well as other important data) available in the following public folder: https://1drv.ms/u/s!Aqc9ixNFtFWAiv4UrLtqtd1QUkMHSA?e=exWalJ.
 
 ## Point forecasts
 
