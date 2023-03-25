@@ -1,6 +1,6 @@
 # DExErS
 
-This repository contains the code and files needed to reproduce the experiments reported in the paper *Empirical probabilistic forecasting: An approach solely based on deterministic explanatory variables for the selection of past forecast errors*. The method proposed in this paper was nicknamed DExErS (short for **D**eterministic **Ex**planatory variables **Er**ror **S**election).
+This repository contains the code and files needed to reproduce the experiments reported in the paper *Empirical probabilistic forecasting: An approach solely based on deterministic explanatory variables for the selection of past forecast errors* (https://doi.org/10.1016/j.ijforecast.2023.01.003). The method proposed in this paper was nicknamed DExErS (short for **D**eterministic **Ex**planatory variables **Er**ror **S**election).
 
 ## System requirements
 
